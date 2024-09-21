@@ -189,7 +189,8 @@ QtObject {
     property VerticalScrollDecorator _fallback: VerticalScrollDecorator {
         parent: root.flickable
         flickable: root.flickable
-        visible: !root._scrollbar || !root.smartWhen
+        visible: (!root._scrollbar || !root.smartWhen)
+                 && !! flickable && flickable.contentHeight > Screen.height
     }
 
     property Item _scrollbar: null
