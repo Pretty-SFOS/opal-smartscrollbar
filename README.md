@@ -48,7 +48,9 @@ Page {
 
 ## Screenshots
 
-Screenshots can be found in the [doc](doc/) directory.
+| 1. | 2. |
+|-|-|
+| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> |
 
 ## How to use
 
